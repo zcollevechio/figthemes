@@ -1,4 +1,3 @@
-usethis::use_package("tidyverse")
 usethis::use_package("showtext")
 
 
@@ -31,14 +30,3 @@ theme_fig <- function(base_family = "PT Sans") {
 
 }
 
-
-
-#mtcars %>%
-#  ggplot(aes(x = mpg, y = wt, color = as.factor(cyl))) +
-#  geom_point() +
-#  labs(title = "Here is my very awesome title",
-#       subtitle = "And here is my equally great subtitle",
-#       caption = "Note: This is a caption that is in italics") +
-#  theme_fig() +
-#  geom_text_repel(aes(label = drat)) +
-#  scale_color_fig_d()
