@@ -1,4 +1,3 @@
-usethis::use_package("showtext")
 
 
 

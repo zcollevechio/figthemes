@@ -1,4 +1,3 @@
-usethis::use_package("viridis")
 
 scale_fill_fig_d <- function(){
   scale_fill_brewer(palette = "Set1")
