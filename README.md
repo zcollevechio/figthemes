@@ -1,0 +1,2 @@
+# figthemes
+Wildfig plotting themes
