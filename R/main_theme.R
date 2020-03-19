@@ -16,15 +16,16 @@ theme_fig <- function(base_family = "PT Sans") {
           plot.subtitle = element_text(size = 12,
                                        color = "#e63c2e"),
           plot.caption = element_text(face = "italic"),
-          axis.title = element_text(size = 12,
+          axis.title = element_text(size = 13,
                                     color = "#4d2f48",
                                     face = "bold"),
-          axis.text = element_text(size = 11,
+          axis.text = element_text(size = 12,
                                    color = "#4d2f48"),
           axis.ticks = element_blank(),
           panel.grid.minor = element_blank(),
           panel.grid.major = element_line(linetype = "dashed",
                                           color = "gray90"),
+          legend.title = element_text(color = "#4d2f48"),
           legend.position = "right")
 
 }
