@@ -1,5 +1,7 @@
-devtools::use_package("tidyverse")
-devtools::use_package("showtext")
+usethis::use_package("tidyverse")
+usethis::use_package("showtext")
+
+
 
 theme_fig <- function(base_family = "PT Sans") {
 
