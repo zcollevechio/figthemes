@@ -17,7 +17,7 @@ scale_color_fig_c <- function(direction = 1){
 
 fig_purple <<- "#4d2f48"
 fig_orange <<- "#e63c2e"
-
+fig_gray <<- "gray60"
 
 
 
