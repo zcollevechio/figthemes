@@ -15,8 +15,9 @@ scale_color_fig_c <- function(direction = 1){
   scale_color_viridis_c(option = "magma", direction = direction)
 }
 
-fig_purple <- "#4d2f48"
+fig_purple <<- "#4d2f48"
+fig_orange <<- "#e63c2e"
 
-fig_orange <- "#e63c2e"
+
 
 
