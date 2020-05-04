@@ -10,6 +10,7 @@ theme_fig <- function(base_family = "PT Sans") {
 
   theme_minimal() +
     theme(text = element_text(family = "PT Sans"),
+          strip.text = element_text(size = 14),
           plot.title = element_text(face = "bold",
                                     color = "#4d2f48",
                                     size = 18),
