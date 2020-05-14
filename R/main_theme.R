@@ -14,8 +14,6 @@ theme_fig <- function(base_family = "PT Sans") {
           plot.title = element_text(face = "bold",
                                     color = "#4d2f48",
                                     size = 18),
-          panel.border = element_rect(fill = NA,
-                                      linetype = "dotted"),
           plot.subtitle = element_text(size = 12,
                                        color = "#e63c2e"),
           plot.caption = element_text(face = "italic"),
